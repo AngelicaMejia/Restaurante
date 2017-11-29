@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GYP - REST</string>
+    <string name="txtin">Bienvenido</string>
+    <string name="btn">Menú</string>
+    <string name="plat">Platos</string>
+    <string name="beb">Bebidas</string>
+    <string name="post">Postres</string>
+    <string name="term">Terminar Pedido</string>
+    <string name="arros">Arroz Tailandes</string>
+    <string name="btn1">Agregar</string>
+    <string name="sop">Sancocho</string>
+    <string name="poll">Pollo relleno</string>
+    <string name="carn">Carne asada</string>
+    <string name="vin">Vino</string>
+    <string name="jug">Jugo natural</string>
+    <string name="gas">Gaseosa</string>
+    <string name="agu">Agua</string>
+    <string name="tir">Tiramisu</string>
+    <string name="lim">Limon</string>
+    <string name="tes">Tres Leches</string>
+    <string name="hel">Helado</string>
+</resources>
