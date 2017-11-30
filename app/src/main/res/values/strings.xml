@@ -19,4 +19,6 @@
     <string name="lim">Limon</string>
     <string name="tes">Tres Leches</string>
     <string name="hel">Helado</string>
+    <string name="bienv">Bienvenidos</string>
+    <string name="ingre">INGRESAR</string>
 </resources>

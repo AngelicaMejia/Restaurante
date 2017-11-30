@@ -46,11 +46,11 @@
             android:theme="@style/botonStyle"
             android:background="@drawable/menu"
             android:text="@string/btn"
-            android:onClick="goToMenu"
             android:textSize="30dp"
             android:textStyle="bold"
             android:layout_centerInParent="true"
-            android:layout_margin="20dp"/>
+            android:layout_margin="20dp"
+            android:onClick="goToMenu"/>
 
 
 
