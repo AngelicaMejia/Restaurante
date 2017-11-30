@@ -18,21 +18,22 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/logo1"
-            android:padding="100px"/>
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5px"
-        android:orientation="vertical"
-        android:padding="20px">
+        android:orientation="vertical">
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="250px"
+            android:background="@drawable/platos"
             android:onClick="goPla"
             android:text="@string/plat"
-            android:textSize="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
             android:theme="@style/botonStyle"
             android:layout_centerInParent="true"/>
 
@@ -41,15 +42,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5px"
-        android:orientation="vertical"
-        android:padding="20px">
+        android:orientation="vertical">
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="250px"
+            android:background="@drawable/bebidas"
             android:onClick="goBeb"
             android:text="@string/beb"
-            android:textSize="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
             android:theme="@style/botonStyle"
             android:layout_centerInParent="true"/>
 
@@ -58,15 +60,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5px"
-    android:orientation="vertical"
-    android:padding="20px">
+    android:orientation="vertical">
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="250px"
+        android:background="@drawable/postres"
         android:onClick="goPost"
         android:text="@string/post"
         android:textSize="20dp"
+        android:textStyle="bold"
         android:theme="@style/botonStyle"
         android:layout_centerInParent="true"/>
 
