@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.as.restaurante.MainActivity"
+
     android:background="@drawable/fondo1"
     android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_width="368dp"
@@ -22,104 +23,66 @@
             android:padding="100px"/>
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10px"
-        android:layout_margin="4px"
-        >
+        android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/arros"
-            android:textColor="@android:color/black"
+            android:layout_margin="5px"
+            android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:background="@drawable/arrozpollo"
+            android:text="@string/arroz"
+            android:onClick="abrirDial"
+            android:textSize="20dp"
             android:textStyle="bold"
-            android:textSize="16pt"
-            android:layout_gravity="center"/>
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10px"
-        android:layout_margin="4px"
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/carn"
-            android:textColor="@android:color/black"
-            android:textStyle="bold"
-            android:textSize="16pt"
-            android:layout_gravity="center"/>
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10px"
-        android:layout_margin="4px"
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/poll"
-            android:textColor="@android:color/black"
-            android:textStyle="bold"
-            android:textSize="16pt"
-            android:layout_gravity="center"/>
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10px"
-        android:layout_margin="4px"
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/sop"
-            android:textColor="@android:color/black"
-            android:textStyle="bold"
-            android:textSize="16pt"
-            android:layout_gravity="center"/>
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5px"
-        android:orientation="vertical"
-        android:padding="20px">
+            android:theme="@style/botonStyle"
+            android:layout_centerInParent="true"
+            android:padding="30dp"
+            android:layout_margin="10dp"
+            />
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="goAgreg1"
-            android:text="@string/btn1"
+            android:layout_height="300px"
+            android:background="@drawable/spaguetti"
+            android:text="@string/spa"
+            android:onClick="abrirDial2"
             android:textSize="20dp"
+            android:textStyle="bold"
             android:theme="@style/botonStyle"
-            android:layout_centerInParent="true"/>
+            android:layout_centerInParent="true"
+            android:padding="30dp"
+            android:layout_margin="10dp"
+            />
 
-    </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:background="@drawable/camaron"
+            android:text="@string/cam"
+            android:onClick="abrirDial2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:theme="@style/botonStyle"
+            android:layout_centerInParent="true"
+            android:padding="30dp"
+            android:layout_margin="10dp"
+            />
 
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goToMenu"
+                android:text="@string/reg"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:theme="@style/botonStyle"
+                android:layout_centerInParent="true"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

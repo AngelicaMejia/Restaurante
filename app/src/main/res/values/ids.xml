@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtcant" type="id">cantidad</item>
+    <item name="crear_boton" type="id">Entrar</item>
+    <item name="entrar_boton" type="id">Salir</item>
+</resources>

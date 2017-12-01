@@ -21,4 +21,14 @@
     <string name="hel">Helado</string>
     <string name="bienv">Bienvenidos</string>
     <string name="ingre">INGRESAR</string>
+    <string name="arroz">ARROZ CON POLLO</string>
+    <string name="precio">$12.000</string>
+    <string name="ingcan">INGRESE LA CANTIDAD A PEDIR</string>
+    <string name="pedido">INFORMACIÓN DEL PEDIDO</string>
+    <string name="pedi">PEDIR</string>
+    <string name="men">Echo!</string>
+    <string name="app">Abrir dialogo</string>
+    <string name="spa">SPAGHETTI BOLOGNESE</string>
+    <string name="cam">CAMARONES AL AJILLO</string>
+    <string name="reg">REGRESAR AL MENÚ</string>
 </resources>

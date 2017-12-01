@@ -16,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PlatosActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".PostresActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".BebidasActivity"
+            android:parentActivityName=".MenuActivity" />
+
     </application>
 
 </manifest>
